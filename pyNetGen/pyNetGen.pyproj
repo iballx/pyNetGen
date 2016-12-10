@@ -12,6 +12,9 @@
     <OutputPath>.</OutputPath>
     <Name>pyNetGen</Name>
     <RootNamespace>pyNetGen</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>"C:\Users\Andrew\Documents\netlist.csv" 1 0</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
